@@ -1,0 +1,51 @@
+body{
+    background-image: url("tc.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .calc{
+    position: fixed;
+    border-radius: 100px;
+    bottom: 20px;
+    right: 28vw;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(196, 189, 116, 0.8);
+
+  }
+  
+    .livro{
+      position: fixed;
+      border-radius: 100px;
+      bottom: 20px;
+      right: 58vw;
+      padding: 10px;
+      font-size: 16px;
+      background-color: rgba(196, 189, 116, 0.8);
+  
+    }
+    .proximo{
+      position: fixed;
+      border-radius: 100px;
+      bottom: 20px;
+      right: 3vw;
+      padding: 10px;
+      font-size: 16px;
+      background-color: rgb(196, 190, 116);
+    }
+    .voltar{
+      position: fixed;
+      bottom: 20px;
+      right: 93vw;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 100px;
+        background-color: rgb(196, 190, 116);
+      }
+    button:hover{
+      background-color: rgb(97, 90, 10);;
+    }
+  

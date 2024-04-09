@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Document</title>
+</head> 
+<body>
+    <br>
+    <div id="port"></div>
+    <h4>Pedro Aleksander</h4>
+
+<script>
+    const textOriginal = "Portfólio";
+    let indexx = 0;
+
+    function escreverTexto() {
+        const elementoTexto = document.getElementById("port");
+        elementoTexto.textContent += textOriginal.charAt(indexx);
+        indexx++;
+        if (indexx < textOriginal.length) {
+            setTimeout(escreverTexto, 200); // Altere o valor do intervalo para ajustar a velocidade da escrita
+        }
+    }
+
+    // Inicia o processo de escrita do texto ao carregar a página
+    window.addEventListener("load", escreverTexto);
+</script>
+
+    <button onclick="location.href='../Sumario/sum.html'">Proximo</button>
+</body>
+</html>
+<script src="portfolio.js">
+  
+</script>

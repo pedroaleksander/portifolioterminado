@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(17, 84, 172), rgb(10, 105, 168), rgb(30, 140, 214));
+    text-align: center;
+    height: 100vh
+    
+    }
+    h1{
+      color: rgb(252, 252, 252);
+      
+    }
+    #disc{
+    color: aliceblue;
+   
+    }
+    .samba{
+        text-align: center;
+        width: 30vw;
+        padding: 8vh;
+        margin: 0 auto;
+        display: block;
+        border-radius: 20px; 
+        background-image: linear-gradient(to bottom, rgb(225, 233, 154), rgba(250, 250, 250, 0.4));
+    }
+    input{
+        border-radius: 10px;
+        text-align: center;
+        font-size: medium;
+        width: 130px;
+        height: 30px;
+        transition: 0.5s;
+    }  
+    button{
+        background-color: rgb(196, 190, 116 );
+        width: 8vw;
+        bottom: 20px;
+        background-color: rgb(196, 190, 116 );
+        height: 35px;
+        border-radius: 20px;
+        
+    }
+    
+    .voltar{
+     position: fixed;
+    bottom: 20px;
+    right: 90vw;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 100px;
+    background-color: rgb(196, 190, 116 );
+          }
+          
+      button:hover{
+        background-color: rgb(175, 174, 93);
+    
+    }
+    .texto{
+        text-align: justify;
+        width: 75vw;
+        padding: 2vh;
+        margin: 0 auto;
+        display: block;
+        border-radius: 20px; 
+        background-image: linear-gradient(to bottom, rgb(15, 67, 136, 0.822) , rgba(10, 93, 148, 0.822));
+        
+    
+    }

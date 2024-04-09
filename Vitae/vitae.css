@@ -1,0 +1,84 @@
+body{
+    background-image: url("fundo.gif");
+    /*background-color: rgb(255, 255, 255);*/
+    background-repeat: repeat;
+    background-size: 100%;
+    text-align: center;
+
+}
+.image-container {/*div da imagem*/
+    margin: auto;
+    position: fixed;
+    width: 72vh; /* Largura inicial do contêiner */
+    height: 48vw; /* Altura inicial do contêiner */
+    overflow: hidden; /* Para ocultar o conteúdo que estiver fora da área do contêiner */
+    position: relative; /* Para posicionar a imagem ampliada */
+    
+  }
+
+  .zoomable-image {/*imagem escolhida*/
+    width: 100%;/*mantem o tamanho da imagem*/
+    height: 100%; /* Mantém a proporção da imagem */
+    transition: transform 3.0s ease;
+  }
+  .zoomable-image:hover {
+    transform: scale(1.5); /* Aumenta a imagem quando o mouse estiver sobre ela */
+    transition: all ease-in-out 0.0s; /* define a velocidade de movimento ao rolar pela imagem */
+    cursor: zoom-in;
+  }
+
+#titulo{
+    text-align: center;
+    font-size: 52px;
+}
+
+
+/*aqui começa a custumização dos icones*/
+.img{
+    background-color: rgb(67, 106, 235); /* Define a cor de fundo da barra de navegação */
+    position: fixed; /* Fixa a barra de navegação na tela */
+    bottom: -1vh; /* Alinha a barra de navegação na parte inferior da tela */
+    left: -4vw; /* Alinha a barra de navegação no lado esquerdo da tela */
+    width: 210vh; /* Define a largura da barra de navegação como 100% da largura da tela */
+    justify-content: space-around; /* Distribui uniformemente os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 1vh 0; /* Adiciona espaço acima e abaixo dos itens */
+}
+.img a {
+    display: block;  
+}
+.img img {
+    width: 40px; /* Defina o tamanho desejado para as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 2vw; /* Espaçamento entre as imagens (opcional) */
+    background-color: rgb(178, 181, 185);
+    border-style: outset;
+    border-radius: 100%;
+}
+/*botoes*/
+.proximo{
+  position: fixed;
+  border-radius: 100px;
+  bottom: 20px;
+  right: 3vw;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(17, 196, 250, 0.747);
+  }
+  .voltar{
+      position: fixed;
+      border-radius: 100px;
+      bottom: 20px;
+      right: 93vw;
+      padding: 10px;
+      font-size: 16px;
+      background-color: rgba(17, 196, 250, 0.747);
+    }
+    button:hover{
+      background-color: rgb(9, 109, 240);
+      
+    }
+    #numero{
+        background-color: aliceblue;
+        border-radius: 50%;
+    }

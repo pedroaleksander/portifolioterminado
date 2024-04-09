@@ -1,0 +1,25 @@
+body{
+        /*background-image: url("port.png");*/
+        background-image: url("construção.webp");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 4vh;
+}
+h1{
+font-size: 4vw;
+border-style: inset;
+background-color: rgba(206, 206, 177, 0.74);
+border-radius: 100px;
+}
+.voltar{
+    position: fixed;
+    bottom: 20px;
+    border-radius: 20px;
+    right: 93vw;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 100px;
+      background-color: beige;
+    }

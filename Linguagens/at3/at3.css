@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(17, 84, 172), rgb(10, 105, 168), rgb(30, 140, 214));
+    text-align: center;
+    height: 100vh
+    
+    }
+h1{
+color: white;
+
+}
+.img{
+width: 45vw;
+border-style:inset ;
+border-width: 10px;
+border-color: aliceblue;
+}
+.voltar{
+    position: fixed;
+   bottom: 20px;
+   right: 93vw;
+   padding: 10px;
+   font-size: 16px;
+   border-radius: 100px;
+   background-color: rgba(12, 147, 236, 0.822);
+}
+button:hover{
+    background-color: rgb(10, 93, 148, 0.822);;
+}
+.texto{
+    text-align: justify;
+    width: 72vw;
+    margin: 0 auto;
+    display: block;
+    padding: 1vh;
+    border-radius: 20px; 
+    background-image: linear-gradient(to bottom, rgb(15, 67, 136, 0.822) , rgba(10, 93, 148, 0.822));
+       color: white; 
+    
+
+}
+a{
+color: white;
+
+}

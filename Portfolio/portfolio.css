@@ -1,0 +1,45 @@
+body{
+  /*background-image: url("port.png");*/
+  background-image: url("fundo2.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#port{
+  margin-top: 20vh;
+text-align: center;
+color: #25632d;
+font-size: 185px;
+text-shadow: 
+-2px -2px 0 #000000,  
+2px -2px 0 #ffffff,
+-2px 2px 0 #000000,
+2px 2px 0 #ffffff; /* Sombra para criar contorno */
+}
+h4{
+  margin-top: 1vh;
+text-align: center;
+color: #25632d;
+font-size: 52px;
+text-shadow: 
+-1px -1px 0 #000000,  
+1px -1px 0 #25632d,
+-1px 1px 0 #000000,
+1px 1px 0 #053a09;
+
+
+}
+button { 
+  position: fixed;
+  border-radius: 100px;
+  bottom: 20px;
+  right: 3vw;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #549b5e;
+}
+button:hover{
+  background-color: #0e4716;
+}

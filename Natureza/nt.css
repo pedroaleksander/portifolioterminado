@@ -1,0 +1,72 @@
+body{
+    background-image: url("nt.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .at1{
+    position: fixed;
+    border-radius: 100px;
+    bottom: 20px;
+    right: 69vw;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(11, 217, 231);
+
+  }
+  
+    .at2{
+      position: fixed;
+      border-radius: 100px;
+      bottom: 20px;
+      right: 55vw;
+      padding: 10px;
+      font-size: 16px;
+      background-color: rgba(11, 217, 231);
+  
+    }
+    .at3{
+      position: fixed;
+      border-radius: 100px;
+      bottom: 20px;
+      right: 41vw;
+      padding: 10px;
+      font-size: 16px;
+      background-color: rgba(11, 217, 231);
+  
+    }
+    
+      .at4{
+        position: fixed;
+        border-radius: 100px;
+        bottom: 20px;
+        right: 27vw;
+        padding: 10px;
+        font-size: 16px;
+        background-color: rgb(11, 217, 231);
+    
+      }
+  .proximo{
+    position: fixed;
+  border-radius: 100px;
+  bottom: 20px;
+  right: 3vw;
+  padding: 10px;
+  font-size: 16px;
+    background-color: rgb(11, 217, 231);
+  }
+  .voltar{
+      position: fixed;
+      bottom: 20px;
+      right: 93vw;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 100px;
+      background-color: rgb(11, 217, 231);
+    }
+    button:hover{
+      background-color: rgb(1, 145, 155);
+    }
+  

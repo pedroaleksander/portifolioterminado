@@ -1,0 +1,60 @@
+body{
+    background-image: url("lg.png");
+    background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+.inicio{
+    position: fixed;
+    bottom: 20px;
+    right: 3vw;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 100px;
+    background-color: rgb(224, 12, 214);
+}
+.at1{
+    position: fixed;
+    border-radius: 100px;
+    bottom: 20px;
+    right: 62vw;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(224, 12, 214);
+
+}
+
+  .at2{
+    position: fixed;
+    border-radius: 100px;
+    bottom: 20px;
+    right: 47vw;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(224, 12, 214);
+
+  }
+  .at3{
+    position: fixed;
+    border-radius: 100px;
+    bottom: 20px;
+    right: 32vw;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(224, 12, 214);
+
+  }
+.voltar{
+  position: fixed;
+    bottom: 20px;
+    right: 93vw;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 100px;
+  background-color: rgb(224, 12, 214);
+}
+button:hover{
+  background-color: rgb(138, 17, 128);
+}

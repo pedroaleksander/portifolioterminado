@@ -1,0 +1,42 @@
+body{
+    background-image: url("mt.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .proximo{
+    position: fixed;
+  border-radius: 100px;
+  bottom: 20px;
+  right: 3vw;
+  padding: 10px;
+  font-size: 16px;
+    background-color: rgb(135, 238, 87);
+  }
+  .voltar{
+    position: fixed;
+    bottom: 20px;
+    right: 93vw;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 100px;
+      background-color: rgb(135, 238, 87);
+    }
+   
+    .video{
+      position: fixed;
+      border-radius: 100px;
+      bottom: 20px;
+      right: 48vw;
+      padding: 10px;
+      font-size: 16px;
+      background-color: rgba(135, 238, 87);
+  
+    }
+    button:hover{
+      background-color: rgb(67, 160, 24);;
+
+    }
+   
