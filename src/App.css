@@ -1,0 +1,45 @@
+
+/* src/components/Header.css */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  font-size: small;
+}
+.nav-links img {
+width: 30px; /* Defina o tamanho desejado para as imagens */
+height: 100%; /* Mantém a proporção da imagem */
+margin-right: 1px; /* Espaçamento entre as imagens (opcional) */
+background-color: rgb(178, 181, 185);
+border-style: outset;
+border-radius: 100%;
+border-width: 1px;
+}
+.nav-links:hover{
+  
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
